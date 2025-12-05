@@ -8,7 +8,7 @@ const tripId = route.params.tripId;
 
 const transfers = ref([]);
 const isLoading = ref(true);
-const API_URL = "/trips";
+const API_URL = "";
 
 onMounted(async () => {
   try {

@@ -13,7 +13,7 @@ const what = ref("");
 const forWhom = ref([]); // Selected members
 const isLoading = ref(false);
 
-const API_URL = "/trips";
+const API_URL = "";
 
 onMounted(async () => {
   try {

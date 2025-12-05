@@ -8,7 +8,7 @@ const memberName = ref("");
 const members = ref([]);
 const isLoading = ref(false);
 const trips = ref([]);
-const API_URL = "/trips";
+const API_URL = "";
 
 const fetchTrips = async () => {
   try {
