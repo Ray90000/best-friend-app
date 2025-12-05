@@ -7,7 +7,7 @@ const router = useRouter()
 const tripId = route.params.tripId
 
 const trip = ref(null)
-const API_URL = 'http://localhost:8002'
+const API_URL = '/trips'
 
 onMounted(async () => {
   try {
